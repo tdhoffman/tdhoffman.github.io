@@ -11,7 +11,7 @@ Coming from a background of math and computer science, Tyler is interested in me
 ## Publications
 
 
-## [CV](cv.pdf)
+## [CV](assets/pdf/cv.pdf)
 
 ## Links
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=2LWJlLMAAAAJ)
