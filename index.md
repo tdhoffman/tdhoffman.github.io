@@ -16,4 +16,4 @@ Coming from a background of math and computer science, Tyler is interested in me
 - [GEOSMASH @ UMD](example.com)
 
 ## Contact Me
-**Email:** tdhoffman@asu.edu
+**Email:** [tdhoffman@asu.edu](mailto:tdhoffman@asu.edu)
