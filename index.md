@@ -11,7 +11,7 @@ Under development—more info about my work will go here eventually!
 ## Publications
 **T. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [Link.](https://doi.org/10.5281/zenodo.4670015)
 
-**T. Hoffman**\*, A. Swain\*, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception.'' Frontiers in Ecology and Evolution, 9. [Link.](https://doi.org/10.3389/fevo.2021.698041)
+**T. Hoffman**\*, A. Swain\*, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception." Frontiers in Ecology and Evolution, 9. [Link.](https://doi.org/10.3389/fevo.2021.698041)
 
 A. Lawson, **T. Hoffman**, Y. Chung, K. Keegan, S. Day. (2021). "A density-based approach to feature detection in persistence diagrams for firn data." Foundations of Data Science. [Link.](http://dx.doi.org/10.3934/fods.2021012)
 
