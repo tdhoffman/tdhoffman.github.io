@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## About
-Coming from a background of math and computer science, I'm interested in methods development and algorithm design for spatial data science. I'm also an advocate for the use of spatial methods in broader research. In my spare time, I love watching movies, playing video games, and biking. I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
+Coming from a background of math and computer science, Tyler develops algorithms and statistical methods for spatial data science. His work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as scale and process. Through algorithm design, he also seeks to advance the principled use of (spatial) data science in social science. In his spare time, Tyler loves watching movies, playing video games, and biking. Tyler received a B.S. with High Honors in Mathematics from the University of Maryland, College Park and he's currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## Research
 Under development—more info about my work will go here eventually!
