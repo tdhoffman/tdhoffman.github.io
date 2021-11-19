@@ -9,7 +9,7 @@ Coming from a background of math and computer science, I develop algorithms and 
 Under development—more info about my work will go here eventually!
 
 ## Fun stuff
-Under development—every academic needs a fun section of their webpage!
+I was [featured during ASU Geo Week](https://www.instagram.com/p/CWdsyo5v3We/?utm_medium=copy_link)!
 
 ## Publications
 **T. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [Link.](https://doi.org/10.5281/zenodo.4670015)
