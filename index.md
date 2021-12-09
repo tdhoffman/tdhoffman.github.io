@@ -11,6 +11,8 @@ Under development—more info about my work will go here eventually!
 ## Fun stuff
 I was [featured during ASU Geo Week](https://www.instagram.com/p/CWdsyo5v3We/?utm_medium=copy_link)!
 
+<!--I love From Software games and have gotten 100% game completion in Sekiro: Shadows Die Twice! ![Sekiro: Shadows Die Twice](assets/img/sekiro-100.png).-->
+
 ## Publications
 **T. D. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [Link.](https://doi.org/10.5281/zenodo.4670015)
 
