@@ -6,7 +6,7 @@ layout: default
 Coming from a background of math and computer science, I develop algorithms and statistical methods for spatial data science. My work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as scale and process. Through algorithm design, I also seek to advance the principled use of (spatial) data science in social science. For more information about my research, [click here](https://tdhoffman.com/research). In my spare time, I love watching movies, playing video games, and biking. I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## Fun stuff
-<!-- I presented at UCSB's Spatial Lightning talks 2022. You can find my talk here.-->
+I presented at UCSB's [Spatial Lightning Talks](http://spatial.ucsb.edu/2022/2022-lightning-talks/) 2022 about Private Wojtek, a bear who fought in World War 2.
 
 I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3We/?utm_medium=copy_link)!
 
