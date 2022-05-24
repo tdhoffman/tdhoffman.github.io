@@ -13,6 +13,8 @@ I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3W
 <!--I love From Software games and have gotten 100% game completion in Sekiro: Shadows Die Twice! ![Sekiro: Shadows Die Twice](assets/img/sekiro-100.png).-->
 
 ## Publications
+P. Kedron, S. Bardin, **T. D. Hoffman**, M. Sachdeva, M. Quick, J. Holler. In review. "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology.
+
 **T. D. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [Link.](https://doi.org/10.5281/zenodo.4670015)
 
 **T. Hoffman**\*, A. Swain\*, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception." Frontiers in Ecology and Evolution, 9. [Link.](https://doi.org/10.3389/fevo.2021.698041)
