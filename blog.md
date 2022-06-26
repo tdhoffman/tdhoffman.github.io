@@ -2,7 +2,23 @@
 layout: default
 ---
 
-## Example Blog Post
-*Posted 4 April 2022*
+## 1. Initial Goals
+*Posted 26 June 2022*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis auctor sem. Sed accumsan nibh libero, eleifend euismod velit scelerisque eget. Proin vehicula laoreet neque et dignissim. Donec sed sapien ac libero finibus fermentum vel nec dolor. Nam condimentum, nisi vel rhoncus porttitor, dui ligula viverra est, ullamcorper molestie massa nibh a odio. Nullam nibh libero, dictum vel rutrum vel, scelerisque ut nibh. In eu diam in ipsum rhoncus consectetur. Integer eget magna finibus, ultrices dui quis, pellentesque urna. Donec tempor pulvinar aliquet. Vestibulum sollicitudin imperdiet auctor. Nullam et magna lacinia, pharetra nulla nec, porta ante. Vestibulum nec velit porttitor, accumsan tellus nec, hendrerit est. Cras vehicula eros ut velit accumsan, congue mollis ipsum faucibus. Nam non nisi ac elit mollis pharetra. Aenean et odio et sapien aliquet imperdiet.
+At our first meeting, my mentors and I discussed the options we have for implementing new interfaces to PySAL's model and exploratory statistic classes. We discussed using multiple dispatch or ducktyping from `scikit-learn` and chose to begin with ducktyping `scikit-learn` as multiple dispatch has been deemed non-Pythonic. While developing functionality for Wilkinson formulas is an ancillary goal of this project, we are keeping it in mind as we make interface edits as those structural changes affect the formula implementation.
+
+My first two goals are as follows:
+1. Choose an unsupervised statistic (`Moran_Local`) and a supervised statistic (`GM_Lag`) and implement them using the `scikit-learn` paradigm. This will give us two concrete, minimal working examples that we can share to package leads.
+2. Start issues in relevant packages to fill out the cells in the table below. We want to know what must be done for each package to switch to a `scikit-learn` interface and to extend it to Wilkinson formulas.
+
+| Package | Requirements for ducktyping `scikit-learn` | Requirements for extending to Wilkinson formulas |
+| :-----: | ------------------------------------------ | ------------------------------------------------ |
+| `spreg` | | |
+| `gwr`   | | |
+| `esda`  | | |
+| `spopt` | | |
+|`weights`| | |
+| `spglm` | | |
+| ...     | | |
+
+Finally, we aim to include automatic attribution tools to all the new interfaces so that users may easily generate the proper citations for the code they are using.
