@@ -13,16 +13,16 @@ I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3W
 <!--I love From Software games and have gotten 100% game completion in Sekiro: Shadows Die Twice! ![Sekiro: Shadows Die Twice](assets/img/sekiro-100.png).-->
 
 ## Publications
-P. Kedron, S. Bardin, **T. D. Hoffman**, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology.
+P. Kedron, S. Bardin, **T. D. Hoffman**, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology. [PDF.](../assets/pdf/RP_DiMaggio_Bayes.pdf.pdf)
 
-W. F. Fagan, C. Saborio, **T. D. Hoffman**, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Preprint. [Link.](https://assets.researchsquare.com/files/rs-1351426/v1_covered.pdf?c=1645216342)
+W. F. Fagan, C. Saborio, **T. D. Hoffman**, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Preprint. [PDF.](../assets/pdf/Fagan2022_foraging_preprint.pdf) [Link.](https://assets.researchsquare.com/files/rs-1351426/v1_covered.pdf?c=1645216342)
 
-**T. D. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [Link.](https://doi.org/10.5281/zenodo.4670015)
+**T. D. Hoffman**, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [PDF.](../assets/pdf/GISRUK2021_paper_84.pdf.pdf) [Link.](https://doi.org/10.5281/zenodo.4670015)
 
-**T. Hoffman**\*, A. Swain\*, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception." Frontiers in Ecology and Evolution, 9. [Link.](https://doi.org/10.3389/fevo.2021.698041)
+**T. Hoffman**\*, A. Swain\*, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception." Frontiers in Ecology and Evolution, 9. [PDF.](../assets/pdf/Hoffman2021_Perception.pdf) [Link.](https://doi.org/10.3389/fevo.2021.698041)
 
-A. Lawson, **T. Hoffman**, Y. Chung, K. Keegan, S. Day. (2021). "A density-based approach to feature detection in persistence diagrams for firn data." Foundations of Data Science. [Link.](http://dx.doi.org/10.3934/fods.2021012)
+A. Lawson, **T. Hoffman**, Y. Chung, K. Keegan, S. Day. (2021). "A density-based approach to feature detection in persistence diagrams for firn data." Foundations of Data Science. [PDF.](../assets/pdf/Lawson2021_TDA.pdf) [Link.](http://dx.doi.org/10.3934/fods.2021012)
 
-W. F. Fagan, **T. Hoffman**, D. Dahiya, E. Gurarie, R. S. Cantrell, C. Cosner. (2019). "Improved foraging by switching between diffusion and advection: benefits from movement that depends on spatial context." Theoretical Ecology, 13 (2), 127-136. [Link.](https://doi.org/10.1007/s12080-019-00434-w)
+W. F. Fagan, **T. Hoffman**, D. Dahiya, E. Gurarie, R. S. Cantrell, C. Cosner. (2019). "Improved foraging by switching between diffusion and advection: benefits from movement that depends on spatial context." Theoretical Ecology, 13 (2), 127-136. [PDF.](../assets/pdf/Fagan2019_foraging.pdf) [Link.](https://doi.org/10.1007/s12080-019-00434-w)
 		
 *\*equal contributions*
