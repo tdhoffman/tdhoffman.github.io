@@ -13,7 +13,7 @@ I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3W
 <!--I love From Software games and have gotten 100% game completion in Sekiro: Shadows Die Twice! ![Sekiro: Shadows Die Twice](assets/img/sekiro-100.png).-->
 
 ## Publications
-P. Kedron, S. Bardin, **T. D. Hoffman**, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology. [PDF.](../assets/pdf/RP_DiMaggio_Bayes.pdf)
+P. Kedron, S. Bardin, **T. D. Hoffman**, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology, 74, 8-14. [PDF.](../assets/pdf/Kedron2022_DiMaggio.pdf) [Link.](https://doi.org/10.1016/j.annepidem.2022.05.005)
 
 W. F. Fagan, C. Saborio, **T. D. Hoffman**, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Preprint. [PDF.](../assets/pdf/Fagan2022_foraging_preprint.pdf) [Link.](https://assets.researchsquare.com/files/rs-1351426/v1_covered.pdf?c=1645216342)
 
