@@ -26,3 +26,5 @@ A. Lawson, **T. Hoffman**, Y. Chung, K. Keegan, S. Day. (2021). "A density-based
 W. F. Fagan, **T. Hoffman**, D. Dahiya, E. Gurarie, R. S. Cantrell, C. Cosner. (2019). "Improved foraging by switching between diffusion and advection: benefits from movement that depends on spatial context." Theoretical Ecology, 13 (2), 127-136. [PDF.](../assets/pdf/Fagan2019_foraging.pdf) [Link.](https://doi.org/10.1007/s12080-019-00434-w)
 		
 *\*equal contributions*
+
+<sub>Made with [Minimal](https://github.com/pages-themes/minimal) by [orderedlist](https://github.com/orderedlist).<sub>
