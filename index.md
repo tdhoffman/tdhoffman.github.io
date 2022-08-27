@@ -16,7 +16,6 @@ I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3W
 <ol reversed>
 	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "Operationalizing Spatial Causal Inference." UCSB Spatial Data Science Symposium 2022 Short Paper Proceedings. [Link.](https://escholarship.org/uc/item/2sh2c3w0)</li>
 	<li>P. Kedron, S. Bardin, <b>T. D. Hoffman</b>, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology, 74, 8-14. [PDF.](../assets/pdf/Kedron2022_DiMaggio.pdf) [Link.](https://doi.org/10.1016/j.annepidem.2022.05.005)</li>
-	
 	<li>W. F. Fagan, C. Saborio, <b>T. D. Hoffman</b>, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Theoretical Ecology, open access, 1-16. [PDF.](../assets/pdf/Fagan2022_foraging.pdf) [Link.](https://link.springer.com/article/10.1007/s12080-022-00542-0)</li>
 	<li><b>T. D. Hoffman</b>, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. [PDF.](../assets/pdf/GISRUK2021_paper_84.pdf) [Link.](https://doi.org/10.5281/zenodo.4670015)</li>
 	<li><b>T. Hoffman</b>*, A. Swain*, K. Leyba, W. F. Fagan. (2021). "Trade-offs in sensory characteristics shape the evolution of perception." Frontiers in Ecology and Evolution, 9. [PDF.](../assets/pdf/Hoffman2021_Perception.pdf) [Link.](https://doi.org/10.3389/fevo.2021.698041)</li>
