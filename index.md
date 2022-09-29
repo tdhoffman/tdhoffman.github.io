@@ -14,7 +14,7 @@ I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3W
 
 ## Publications
 <ol reversed>
-	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "Operationalizing Spatial Causal Inference." UCSB Spatial Data Science Symposium 2022 Short Paper Proceedings. <a href="../assets/pdf/Hoffman2022_space_cause.pdf">PDF.</a> <a href="https://escholarship.org/uc/item/2sh2c3w0">Link.</a></li>
+	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "Operationalizing Spatial Causal Inference." UCSB Spatial Data Science Symposium 2022 Short Paper Proceedings. <a href="../assets/pdf/Hoffman2022_space_cause.pdf">PDF.</a> <a href="https://escholarship.org/uc/item/2sh2c3w0">Link.</a> <a href="https://youtu.be/jV6s2FzepZY?t=1088">Recorded presentation.</a></li>
 	<li>P. Kedron, S. Bardin, <b>T. D. Hoffman</b>, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology, 74, 8-14. <a href="../assets/pdf/Kedron2022_DiMaggio.pdf">PDF.</a> <a href="https://doi.org/10.1016/j.annepidem.2022.05.005">Link.</a></li>
 	<li>W. F. Fagan, C. Saborio, <b>T. D. Hoffman</b>, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Theoretical Ecology, open access, 1-16. <a href="../assets/pdf/Fagan2022_foraging.pdf">PDF.</a> <a href="https://link.springer.com/article/10.1007/s12080-022-00542-0">Link.</a></li>
 	<li><b>T. D. Hoffman</b>, T. Oshan. (2021). "A Supervised Heuristic for a Balanced Approach to Regionalization." GIS Research UK Conference. <a href="../assets/pdf/GISRUK2021_paper_84.pdf">PDF.</a> <a href="https://doi.org/10.5281/zenodo.4670015">Link.</a></li>
