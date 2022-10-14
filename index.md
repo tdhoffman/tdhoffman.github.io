@@ -6,9 +6,11 @@ layout: default
 Coming from a background of math and computer science, I develop algorithms and statistical methods for spatial data science. My work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as process and scale. Through algorithm design, I also seek to advance the principled use of (spatial) data science in social science. For more information about my research, [click here](https://tdhoffman.com/research) (slightly outdated). In my spare time, I love watching movies, playing piano, and biking. I am a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## Fun stuff
-I presented at UCSB's [Spatial Lightning Talks](http://spatial.ucsb.edu/2022/2022-lightning-talks/) 2022 about Private Wojtek, a bear who fought in World War 2. The video can be found [here.](https://www.youtube.com/watch?v=5nzB82EoGfk)
+**11 Oct 2022:** I received my Master's in Passing! I'll be graduating with my M.A. in Geography this fall from ASU. One more step checked off on the way to a Ph.D!
 
-I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3We/?utm_medium=copy_link)!
+**28 Feb 2022:** I presented at UCSB's [Spatial Lightning Talks](https://spatial.ucsb.edu/events/all/2022/lightning-talks-2022) 2022 about Private Wojtek, a bear who fought in World War 2. The video can be found [here.](https://www.youtube.com/watch?v=5nzB82EoGfk)
+
+**19 Nov 2021:** I was [featured during ASU Geo Week 2021](https://www.instagram.com/p/CWdsyo5v3We/?utm_medium=copy_link)!
 
 <!--I love From Software games and have gotten 100% game completion in Sekiro: Shadows Die Twice! ![Sekiro: Shadows Die Twice](assets/img/sekiro-100.png).-->
 
