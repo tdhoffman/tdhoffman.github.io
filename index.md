@@ -29,4 +29,4 @@ Coming from a background of math and computer science, I develop algorithms and 
 		
 *\*equal contributions*
 
-<sub>Made with [Minimal](https://github.com/pages-themes/minimal) by [orderedlist](https://github.com/orderedlist).<sub>
+<sub>Made with [Minimal](https://github.com/pages-themes/minimal) by [orderedlist](https://github.com/orderedlist). Icons from [Flaticon](https://flaticon.com).<sub>
