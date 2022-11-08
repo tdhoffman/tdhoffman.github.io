@@ -29,20 +29,21 @@
   <body>
     <div class="wrapper">
       <header>
-        <center><h1><a href="{{ "/" | absolute_url }}" style="color:black">{{ site.title | default: site.github.repository_name }}</a></h1></center>
+        <center>
+          <h1><a href="{{ "/" | absolute_url }}" style="color:black">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+          {% if site.logo %}
+            <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+          {% endif %}
 
-        <p><i>(he/him)</i> &#183; {{ site.description | default: site.github.project_tagline }}</p>
+          <p><i>(he/him)</i> &#183; {{ site.description | default: site.github.project_tagline }}</p>
         
-        <p>
-          <a href="https://twitter.com/tyler_hoff1"><img src="/assets/img/twitter.png" alt="Twitter" width=32px height=32px/></a>
-          <a href="{{ site.github.owner_url }}"><img src="/assets/img/github.png" alt="Github" width=32px height=32px/></a>
-        </p>
-        
-        <p class="view">Email me: <a href="mailto:tdhoffman@asu.edu">tdhoffman@asu.edu</a></p>
+          <p>
+            <a href="https://twitter.com/tyler_hoff1"><img src="/assets/img/twitter.png" alt="Twitter" width=32px height=32px/></a>
+            <a href="{{ site.github.owner_url }}"><img src="/assets/img/github.png" alt="Github" width=32px height=32px/></a>
+            <a href="mailto:tdhoffman@asu.edu"><img src="/assets/img/mail.png" alt="tdhoffman@asu.edu" width=32px height=32px/></a>
+          </p>
+        </center>
         
         <p class="view"><a href="https://www.tdhoffman.com/research">Research</a></p>
         
