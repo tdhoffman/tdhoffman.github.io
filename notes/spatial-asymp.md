@@ -31,7 +31,8 @@ However, I'm still left wondering about what practical conditions make these the
 I think the next step is some large sample approximations/experiments or digging deeper into the theorem to see how each condition comes into play and what it affects.
 
 
-**References**
+### References
+
 Cressie, N. (1993). _Statistics for Spatial Data_. Wiley Series in Probability and Mathematical Statistics.
 
 Ding, P., Li, X., and Miratrix, L.W. (2017). "Bridging finite and super population causal inference." _Journal of Causal Inference_, 5(2):1--8.
