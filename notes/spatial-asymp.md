@@ -52,7 +52,7 @@ Cressie cites this as a corollary, but I think it's the main result here.
 <ol start="5">
 <li>Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.</li>
 <li>$Y$ is covariance stationary in $\mathbb{R}^d$, where $d$ is the dimension of the spatial domain (usually 2). That is, $C(s, s+h; \gamma) = \sigma^2\rho(h; \gamma)$ with $\rho(0; \gamma) = 1$.</li>
-<li>Define $\rho\_i = \partial \rho/\partial \gamma\_i$ and $\rho\_{ij} = \partial^2 \rho / \partial \gamma\_i \partial \gamma\_j$. $\rho$, $\rho\_i$, and $\rho\_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.</li>
+<li>Define $\rho_i = \partial \rho/\partial \gamma_i$ and $\rho_{ij} = \partial^2 \rho / \partial \gamma_i \partial \gamma_j$. $\rho$, $\rho_i$, and $\rho_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.</li>
 </ol>
 
 Then the maximum likelihood estimators of $\beta$ and $\gamma$ are consistent and asymptotically Gaussian.
