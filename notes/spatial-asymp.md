@@ -1,8 +1,5 @@
 ## Asymptotics for modeling areal data
 
-_These notes are a work in progress: I am transferring the jumble of thoughts from paper to a polished version here.
-The beginnings of the motivation and the final punchline have been written, mostly because I was communicating these ideas to colleagues and had portions of that text ready to go when I decided to write these notes up._
-
 In classical statistics, asymptotic properties of estimators (our prototype here will be consistency) are relatively straightforward to establish: take $n$, the number of samples, to infinity and study what happens to the statistic in question.
 However, in spatial settings, this task is not so straightforward.
 For a continuous spatial domain (e.g., assessing the performance of a kriging estimator), this limit is well-defined: we can think of the limit n -> infinity as filling in the domain with infinite points and approximating the true surface of a variable.
@@ -24,7 +21,7 @@ In this case, the choice of asymptotics has significant effects on the inference
 
 After trawling through my spatial statistics textbooks, I eventually found the answer in Cressie (1993).
 (As a side note, it's hard to understate how often this happens -- that I have a spatial stats question and find the answer in Cressie.
-In my opinion, it remains an essential handbook for the discipline to this day.)
+It's my handbook on spatial statistical thinking.)
 Section 5.8 is all about infill asymptotics for continuous domains and Section 7.3.1 is all about increasing-domain asymptotics for areal data.
 From his treatment of the two, infill asymptotics feels like a very natural study of asymptotic properties for the estimators, but increasing-domain asymptotics feels quite contrived.
 In this sense, the superpopulation is an infinite domain of which we've merely selected a "large enough" subregion; e.g., an analysis on the counties of the US assumes that the US extends infinitely in at least one direction.
@@ -53,7 +50,7 @@ Cressie cites this as a corollary, but I think it's the main result here.
 
 **Theorem 3.** Along with assumptions 3 and 4 of Theorem 2, assume the following:
 <ol start="5">
-<li>Let $D\_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D\_n \times D\_n$, $\|s - s'\| \geq a > 0$.</li>
+<li>Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.</li>
 <li>$Y$ is covariance stationary in $\mathbb{R}^d$, where $d$ is the dimension of the spatial domain (usually 2). That is, $C(s, s+h; \gamma) = \sigma^2\rho(h; \gamma)$ with $\rho(0; \gamma) = 1$.</li>
 <li>Define $\rho\_i = \partial \rho/\partial \gamma\_i$ and $\rho\_{ij} = \partial^2 \rho / \partial \gamma\_i \partial \gamma\_j$. $\rho$, $\rho\_i$, and $\rho\_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.</li>
 </ol>
