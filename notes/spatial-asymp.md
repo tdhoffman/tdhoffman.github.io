@@ -60,7 +60,11 @@ Cressie cites this as a corollary, but I think it's the main result here.
 Then the maximum likelihood estimators of $\beta$ and $\gamma$ are consistent and asymptotically Gaussian.
 
 I forgo presenting proofs here (see Mardia and Marshall, 1984 for that), opting instead to delve into the intuition for what these assumptions mean.
-The information matrix for $\eta$ is \[
+The information matrix for $\eta$ is 
+```math
+   \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
+```
+\[
 J = \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
 \]
 where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]\_{ij} = \frac{1}{2}t\_{ij}$.
