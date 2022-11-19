@@ -91,6 +91,7 @@ One of these references comes from causal inference, which is why I started thin
 To me, considering a sample as but one of infinite alternate universes makes far more sense than considering each sample as a subset of an infinite domain that has the same spatial structure in all directions.
 I wonder if it's possible to build theory around the former rather than the latter: could we reexpress these results in the sense of a superpopulation of infinite universes and get a better setting for inference?
 
+_Thanks to Prof. Peter Rogerson for finding de Gruijter and ter Braak (1990) and for helping me think through these ideas out loud._
 
 ### References
 
