@@ -5,7 +5,7 @@ However, in spatial settings, this task is not so straightforward.
 For a continuous spatial domain (e.g., assessing the performance of a kriging estimator), this limit is well-defined: we can think of the limit n -> infinity as filling in the domain with infinite points and approximating the true surface of a variable.
 However, the discrete case was giving me some trouble.
 We usually treat areal data as possessing only one observation per unit, in which case the limit $n \rightarrow \infty$ implies either (a) the addition of more areal units or (b) some sort of refinement in the discretization.
-(a) is practically nonsensical (there aren't more US counties to add to a countrywide analysis!) and (b) provokes severe MAUP problems. 
+(a) is practically nonsensical (there aren't more US counties to add to a countrywide analysis!) and (b) provokes severe [MAUP issues](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem).
 If there is only one observation of a variable per spatial unit, then what does it mean to take $n$ to infinity?
 
 As a side note, sometimes spatial statisticians cover the case where areal units have multiple observations per unit.
