@@ -30,7 +30,12 @@ From his treatment of the two, infill asymptotics feels like a very natural stud
 In this sense, the superpopulation is an infinite domain of which we've merely selected a "large enough" subregion; e.g., an analysis on the counties of the US assumes that the US extends infinitely in at least one direction.
 
 It turns out that the increasing-domain approach is actually how the results are formulated.
-Section 7.3.1 of Cressie is very dense, but the result in question boils down to Theorems 2 and 3 of Mardia and Marshall (1984):
+Section 7.3.1 of Cressie is very dense, but the result in question boils down to Theorems 2 and 3 of Mardia and Marshall (1984).
+He begins by showing increasing-domain asymptotic results for spatial parameters, and then around the midpoint of the section makes a turn by saying: 
+
+_"It is worth reiterating that all of these results are for spatial-dependence parameters; the mean of the process has been assumed known and hence, without loss of generality, assumed to be zero. Often, most of the interest centers on the unknown mean parameters; the spatial-dependence parameters are important, but only in terms of efficient estimation of the mean parameters."_
+
+He continues to discuss a theorem (Mardia and Marshall, 1984) that proves consistency and asymptotic normality of maximum likelihood estimators for the mean and dependence parameters on an index set S, to which Cressie adds two assumptions that make it work in the spatial case.
 
 **Theorem 2.** Consider a Gaussian spatial process $Y \sim N_n(X\beta, \Sigma)$ where $\beta \in \mathbb{R}^p$ are mean parameters and $\gamma \in \mathbb{R}^k$ are spatial parameters.
 Let $\Sigma = \Sigma(\gamma)$ with eigenvalues $\lambda_1 \leq \dots \leq \lambda_n$, $\Sigma_i = \frac{\partial \Sigma}{\partial \gamma_i}$ with eigenvalues $|\lambda^i_1| \leq \dots \leq |\lambda^i_n|$, and $\Sigma_{ij} = \frac{\partial^2 \Sigma}{\partial \gamma_i \gamma_j}$ with eigenvalues $|\lambda^{ij}_1| \leq \dots \leq |\lambda^{ij}_n|$.
@@ -40,7 +45,7 @@ As $n \rightarrow \infty$, assume the following:
 1. Define $t_{ij}/2 = \frac{1}{2} \text{tr}(\Sigma^{-1}\Sigma_i\Sigma^{-1}\Sigma_j)$. Then $t_{ij}/(t_{ii}t_{jj})^{1/2} \rightarrow a_{ij}$ where $A = [a_{ij}]$ is a nonsingular matrix.
 1. $(X^TX)^{-1} \rightarrow 0$.
 
-Then the maximum likelihood estimators $\hat{\beta}_n$ and $\hat{\gamma}_n$ are weakly consistent and asymptotically Gaussian ($\hat{\eta}_n \sim N(\eta, J^{-1}_n)$ where $\eta = (\beta, \gamma)$ and $J_n = -\mathbb{E}[L^{(2)}_n]$ is the expected information matrix).
+Then the maximum likelihood estimators $\hat{\beta}_n$ and $\hat{\gamma}_n$ are weakly consistent and asymptotically Gaussian ($\hat{\eta}_n \sim N(\eta, J^{-1})$ where $\eta = (\beta, \gamma)$ and $J = -\mathbb{E}[L^{(2)}]$ is the expected information matrix).
 
 There's a lot to unpack here, but bear with me for a little while longer. 
 Theorem 3 of Mardia and Marshall adds two more assumptions that guarantee full consistency.
@@ -58,15 +63,10 @@ I forgo presenting proofs here (see Mardia and Marshall, 1984 for that), opting 
 The information matrix for $\eta$ is \[
 J = \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
 \]
-where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]_{ij} = \frac{1}{2}t_{ij}$.
+where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]\_{ij} = \frac{1}{2}t\_{ij}$.
 This contextualizes the role that the $t_{ij}$ play: they are exactly elements of the information matrix for $\gamma$ and hence assumption 3 ensures that $J^{-1}_\gamma$ is nonsingular in the limit.
 That is, it guarantees that the elements of $\hat{\gamma}_n$ are "not asymptotically linearly dependent" (Mardia and Marshall, 1984).
 
-Moreover, Cressie says:
-
-_"It is worth reiterating that all of these results are for spatial-dependence parameters; the mean of the process has been assumed known and hence, without loss of generality, assumed to be zero. Often, most of the interest centers on the unknown mean parameters; the spatial-dependence parameters are important, but only in terms of efficient estimation of the mean parameters."_
-
-He continues to discuss a theorem (Mardia and Marshall, 1984) that proves consistency and asymptotic normality of maximum likelihood estimators for the mean and dependence parameters on an index set S, to which Cressie adds two assumptions that make it work in the spatial case.
 
 Anyway, I have three conclusions to draw from this:
 - Asymptotic results for areal statistics might be made far easier if we let there be multiple observations per unit.
