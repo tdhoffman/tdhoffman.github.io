@@ -34,8 +34,8 @@ Section 7.3.1 of Cressie is very dense, but the result in question boils down to
 
 **Theorem 2.** Consider a Gaussian spatial process $Y \sim N_n(X\beta, \Sigma)$ where $\beta \in \mathbb{R}^p$ are mean parameters and $\gamma \in \mathbb{R}^k$ are spatial parameters.
 Let $\Sigma = \Sigma(\gamma)$ with eigenvalues $\lambda_1 \leq \dots \leq \lambda_n$, $\Sigma_i = \frac{\partial \Sigma}{\partial \gamma_i}$ with eigenvalues $|\lambda^i_1| \leq \dots \leq |\lambda^i_n|$, and $\Sigma_{ij} = \frac{\partial^2 \Sigma}{\partial \gamma_i \gamma_j}$ with eigenvalues $|\lambda^{ij}_1| \leq \dots \leq |\lambda^{ij}_n|$.
-As $n \rightarrow \infty, assume the following:
-1. $\lambda\_n \rightarrow C < \infty$, $|\lambda^i_n| \rightarrow C_i < \infty$, and $|lambda^{ij}_n| \rightarrow C_{ij} < \infty$ for all $i, j, = 1, \dots, p$.
+As $n \rightarrow \infty$, assume the following:
+1. $\lambda\_n \rightarrow C < \infty$, $|\lambda^i\_n| \rightarrow C\_i < \infty$, and $|lambda^{ij}\_n| \rightarrow C\_{ij} < \infty$ for all $i, j, = 1, \dots, p$.
 1. There exists $\delta > 0$ such that $\|\Sigma_i\|_F^{-2} = O\left(n^{-\frac{1}{2} - \delta}\right)$ for each $i$.
 1. Define $t_{ij}/2 = \frac{1}{2} \text{tr}(\Sigma^{-1}\Sigma_i\Sigma^{-1}\Sigma_j)$. Then $t_{ij}/(t_{ii}t_{jj})^{1/2} \rightarrow a_{ij}$ where $A = [a_{ij}]$ is a nonsingular matrix.
 1. $(X^TX)^{-1} \rightarrow 0$.
@@ -45,8 +45,9 @@ There's a lot to unpack here, but bear with me for a little while longer.
 Theorem 3 of Mardia and Marshall adds two more assumptions that guarantee full consistency.
 Cressie cites this as a corollary, but I think it's the main result here.
 
-**Theorem 3.** Let $Y$ be _covariance stationary_ in $\mathbb{R}^d$ Add the following assumptions to Theorem 2:
+**Theorem 3.** Add the following assumptions to Theorem 2:
 5. Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.
+6. $Y$ is covariance stationary in $\mathbb{R}^d$
 
 
  The $t_{ij}$ are elements of the information matrix for $\gamma$
