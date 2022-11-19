@@ -60,8 +60,8 @@ Cressie cites this as a corollary, but I think it's the main result here.
 Then the maximum likelihood estimators of $\beta$ and $\gamma$ are consistent and asymptotically Gaussian.
 
 I forgo presenting proofs here (see Mardia and Marshall, 1984 for that), opting instead to delve into the intuition for what these assumptions mean.
-The information matrix for $\eta$ is $J = $ $$
-\begin{bmatrix} J\_\beta & 0 \\ 0 & J\_\gamma \end{bmatrix}
+The information matrix for $\eta$ is $$
+J = \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
 $$
 where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]\_{ij} = \frac{1}{2}t\_{ij}$.
 This contextualizes the role that the $t_{ij}$ play: they are exactly elements of the information matrix for $\gamma$ and hence assumption 3 ensures that $J^{-1}_\gamma$ is nonsingular in the limit.
@@ -73,7 +73,10 @@ $\text{Var}(\hat{\beta}_n) = (X^TX)^{-1} \sigma^2$, so the assumption $(X^TX)^{-
 Covariance stationarity (assumption 5) is something we practically always assume when doing spatial statistics.
 I've yet to see a method that handles the case where the covariance of a spatial process is location-dependent.
 
-Assumption 6 is more of a housekeeping assumption than anything else: 
+Assumption 6 is more of a housekeeping assumption than anything else: it says that every new observation must be some distance away from the current set of observations.
+This ensures that the domain truly expands in the limit.
+
+Finally, assumption 7
 
 Anyway, I have three conclusions to draw from this:
 - Asymptotic results for areal statistics might be made far easier if we let there be multiple observations per unit.
