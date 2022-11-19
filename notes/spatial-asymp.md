@@ -52,17 +52,16 @@ Theorem 3 of Mardia and Marshall adds two more assumptions that guarantee full c
 Cressie cites this as a corollary, but I think it's the main result here.
 
 **Theorem 3.** Along with assumptions 3 and 4 of Theorem 2, assume the following:
-{:start="5"}
-1. Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.
-1. $Y$ is covariance stationary in $\mathbb{R}^d$, where $d$ is the dimension of the spatial domain (usually 2). That is, $C(s, s+h; \gamma) = \sigma^2\rho(h; \gamma)$ with $\rho(0; \gamma) = 1$.
-1. Define $\rho_i = \partial \rho/\partial \gamma_i$ and $\rho_{ij} = \partial^2 \rho / \partial \gamma_i \partial \gamma_j$. $\rho$, $\rho_i$, and $\rho_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.
+5\. Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.
+6\. $Y$ is covariance stationary in $\mathbb{R}^d$, where $d$ is the dimension of the spatial domain (usually 2). That is, $C(s, s+h; \gamma) = \sigma^2\rho(h; \gamma)$ with $\rho(0; \gamma) = 1$.
+7\. Define $\rho_i = \partial \rho/\partial \gamma_i$ and $\rho_{ij} = \partial^2 \rho / \partial \gamma_i \partial \gamma_j$. $\rho$, $\rho_i$, and $\rho_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.
 
 Then the maximum likelihood estimators of $\beta$ and $\gamma$ are consistent and asymptotically Gaussian.
 
 I forgo presenting proofs here (see Mardia and Marshall, 1984 for that), opting instead to delve into the intuition for what these assumptions mean.
 The information matrix for $\eta$ is $$
 J = \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
-$$
+$$ (apologies for the wonky formatting, still figuring out MathJaX in Github Pages)
 where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]\_{ij} = \frac{1}{2}t\_{ij}$.
 This contextualizes the role that the $t_{ij}$ play: they are exactly elements of the information matrix for $\gamma$ and hence assumption 3 ensures that $J^{-1}_\gamma$ is nonsingular in the limit.
 That is, it guarantees that the elements of $\hat{\gamma}_n$ are "not asymptotically linearly dependent" (Mardia and Marshall, 1984).
@@ -76,7 +75,10 @@ I've yet to see a method that handles the case where the covariance of a spatial
 Assumption 6 is more of a housekeeping assumption than anything else: it says that every new observation must be some distance away from the current set of observations.
 This ensures that the domain truly expands in the limit.
 
-Finally, assumption 7
+Finally, assumption 7 tells us that the covariances decay properly with distance, essentially corresponding to [Tobler's First Law](https://en.wikipedia.org/wiki/Tobler%27s_first_law_of_geography).
+Mardia and Marshall show that this is equivalent to assumption 1, which is good because assumption 7 is far more practical to check.
+In conjunction with assumption 5, this says that new locations remain close enough to keep learning about the spatial parameters.
+For example, if there's a cutoff in the covariance function beyond which $\rho(h; \gamma) = 0$, we won't learn anything about $\gamma$ if our observations are always spaced further than this cutoff.
 
 Anyway, I have three conclusions to draw from this:
 - Asymptotic results for areal statistics might be made far easier if we let there be multiple observations per unit.
@@ -88,7 +90,7 @@ I think the next step is some large sample approximations/experiments or digging
 Moreover, what implications does this have on inference? 
 One of these references comes from causal inference, which is why I started thinking about this in the first place.
 To me, considering a sample as but one of infinite alternate universes makes far more sense than considering each sample as a subset of an infinite domain that has the same spatial structure in all directions.
-I wonder if it's possible to build theory around the former rather than the latter.
+I wonder if it's possible to build theory around the former rather than the latter: could we reexpress these results in the sense of a superpopulation of infinite universes and get a better setting for inference?
 
 
 ### References
