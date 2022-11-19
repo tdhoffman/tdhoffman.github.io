@@ -40,20 +40,27 @@ As $n \rightarrow \infty$, assume the following:
 1. Define $t_{ij}/2 = \frac{1}{2} \text{tr}(\Sigma^{-1}\Sigma_i\Sigma^{-1}\Sigma_j)$. Then $t_{ij}/(t_{ii}t_{jj})^{1/2} \rightarrow a_{ij}$ where $A = [a_{ij}]$ is a nonsingular matrix.
 1. $(X^TX)^{-1} \rightarrow 0$.
 
-Then the maximum likelihood estimators of $\beta$ and $\gamma$ are weakly consistent and asymptotically Gaussian ($\hat{\eta}_n \sim N(\eta, J^{-1}_n)$ where $\eta = (\beta, \gamma)$ and $J_n = -\mathbb{E}[L^{(2)}_n]$ is the expected information matrix).
+Then the maximum likelihood estimators $\hat{\beta}_n$ and $\hat{\gamma}_n$ are weakly consistent and asymptotically Gaussian ($\hat{\eta}_n \sim N(\eta, J^{-1}_n)$ where $\eta = (\beta, \gamma)$ and $J_n = -\mathbb{E}[L^{(2)}_n]$ is the expected information matrix).
 
- There's a lot to unpack here, but bear with me for a little while longer. 
- Theorem 3 of Mardia and Marshall adds two more assumptions that guarantee full consistency.
- Cressie cites this as a corollary, but I think it's the main result here.
+There's a lot to unpack here, but bear with me for a little while longer. 
+Theorem 3 of Mardia and Marshall adds two more assumptions that guarantee full consistency.
+Cressie cites this as a corollary, but I think it's the main result here.
 
 **Theorem 3.** Along with assumptions 3 and 4 of Theorem 2, assume the following:
+{:start="5"}
 1. Let $D_n$ be the spatial domain with $n$ observations in it. For all $(s, s') \in D_n \times D_n$, $\|s - s'\| \geq a > 0$.
 1. $Y$ is covariance stationary in $\mathbb{R}^d$, where $d$ is the dimension of the spatial domain (usually 2). That is, $C(s, s+h; \gamma) = \sigma^2\rho(h; \gamma)$ with $\rho(0; \gamma) = 1$.
 1. Define $\rho_i = \partial \rho/\partial \gamma_i$ and $\rho_{ij} = \partial^2 \rho / \partial \gamma_i \partial \gamma_j$. $\rho$, $\rho_i$, and $\rho_{ij}$ must be absolutely summable over $\mathbb{Z}^d$.
 
 Then the maximum likelihood estimators of $\beta$ and $\gamma$ are consistent and asymptotically Gaussian.
 
-The $t_{ij}$ are elements of the information matrix for $\gamma$
+I forgo presenting proofs here (see Mardia and Marshall, 1984 for that), opting instead to delve into the intuition for what these assumptions mean.
+The information matrix for $\eta$ is \[
+J = \begin{bmatrix} J_\beta & 0 \\ 0 & J_\gamma \end{bmatrix}
+\]
+where $J_\beta = X^T\Sigma^{-1} X$ and $[J_\gamma]_{ij} = \frac{1}{2}t_{ij}$.
+This contextualizes the role that the $t_{ij}$ play: they are exactly elements of the information matrix for $\gamma$ and hence assumption 3 ensures that $J^{-1}_\gamma$ is nonsingular in the limit.
+That is, it guarantees that the elements of $\hat{\gamma}_n$ are "not asymptotically linearly dependent" (Mardia and Marshall, 1984).
 
 Moreover, Cressie says:
 
