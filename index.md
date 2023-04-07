@@ -6,6 +6,10 @@ layout: default
 Coming from a background of math and computer science, I develop algorithms and statistical methods for spatial data science. My work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as process and scale. Through algorithm design, I also seek to advance the principled use of (spatial) data science in social science. For more information about my research, [click here](https://tdhoffman.com/research) (slightly outdated). In my spare time, I love watching movies, playing piano, and biking. I am a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## News and Updates
+**7 Apr 2023:** Version 0.0.1 of my first Python package is now live! 
+[`spycause, a package for spatial causal inference in Python`](https://pypi.org/project/spycause/0.0.1/), can be installed from PyPI using `pip install spycause`.
+Learn more at [`spycause.readthedocs.io`](spycause.readthedocs.io) or [visit the repository](https://github.com/tdhoffman/spycause) to see the source code!
+
 **26 Mar 2023:** I was selected as the 2nd place winner of the 2023 Spatial Analysis and Modeling John Odland Student Paper Competition! Stay tuned for the full paper!
 
 **23 Mar 2023:** How does access to green space impact gentrification? Our project, selected as one of the winners from [MDI’s Green Space Data Challenge](http://bit.ly/3yYke4k) can begin to answer this question! (With Timara Crichlow and Shaylynn Trego.)
