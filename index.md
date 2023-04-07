@@ -7,7 +7,7 @@ Coming from a background of math and computer science, I develop algorithms and 
 
 ## News and Updates
 **7 Apr 2023:** Version 0.0.1 of my first Python package is now live! 
-[`spycause, a package for spatial causal inference in Python`](https://pypi.org/project/spycause/0.0.1/), can be installed from PyPI using `pip install spycause`.
+[`spycause`, a package for spatial causal inference in Python](https://pypi.org/project/spycause/0.0.1/), can be installed from PyPI using `pip install spycause`.
 Learn more at [`spycause.readthedocs.io`](spycause.readthedocs.io) or [visit the repository](https://github.com/tdhoffman/spycause) to see the source code!
 
 **26 Mar 2023:** I was selected as the 2nd place winner of the 2023 Spatial Analysis and Modeling John Odland Student Paper Competition! Stay tuned for the full paper!
