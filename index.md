@@ -6,6 +6,8 @@ layout: default
 Coming from a background of math and computer science, I develop algorithms and statistical methods for spatial data science. My work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as process and scale. Through algorithm design, I also seek to advance the principled use of (spatial) data science in social science. For more information about my research, [click here](https://tdhoffman.com/research) (slightly outdated). In my spare time, I love watching movies, playing piano, and biking. I am a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## News and Updates
+**17 Apr 2023:** Our contribution to the Geographic Information Science Body of Knowledge online encyclopedia has been published! Find out more about spatial autoregressive models [at this link](https://gistbok.ucgis.org/bok-topics/spatial-autoregressive-models).
+
 **7 Apr 2023:** Version 0.0.1 of my first Python package is now live! 
 [`spycause`, a package for spatial causal inference in Python](https://pypi.org/project/spycause/0.0.1/), can be installed from PyPI using `pip install spycause`.
 Learn more at [`spycause.readthedocs.io`](spycause.readthedocs.io) or [visit the repository](https://github.com/tdhoffman/spycause) to see the source code!
@@ -26,7 +28,7 @@ Learn more at [`spycause.readthedocs.io`](spycause.readthedocs.io) or [visit the
 
 ## Publications
 <ol reversed>
-	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "AM-32: Spatial autoregressive models." Geographic Information Science and Technology Body of Knowledge. In press.</li>
+	<li><b>T. D. Hoffman</b>, P. Kedron. (2023). ``Spatial Autoregressive Models.''  The Geographic Information Science \& Technology Body of Knowledge (2nd Quarter 2023 Edition). John P. Wilson (Ed.). <a href="https://gistbok.ucgis.org/bok-topics/spatial-autoregressive-models">Link.</a></li>
 	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "Operationalizing Spatial Causal Inference." UCSB Spatial Data Science Symposium 2022 Short Paper Proceedings. <a href="../assets/pdf/Hoffman2022_space_cause.pdf">PDF.</a> <a href="https://escholarship.org/uc/item/2sh2c3w0">Link.</a> <a href="https://youtu.be/jV6s2FzepZY?t=1088">Recorded presentation.</a></li>
 	<li>P. Kedron, S. Bardin, <b>T. D. Hoffman</b>, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology, 74, 8-14. <a href="../assets/pdf/Kedron2022_DiMaggio.pdf">PDF.</a> <a href="https://doi.org/10.1016/j.annepidem.2022.05.005">Link.</a></li>
 	<li>W. F. Fagan, C. Saborio, <b>T. D. Hoffman</b>, E. Gurarie, R. S. Cantrell, C. Cosner. (2022). "What's in a resource gradient? Comparing alternative cues for foraging in dynamic environments via movement, perception, and memory." Theoretical Ecology, open access, 1-16. <a href="../assets/pdf/Fagan2022_foraging.pdf">PDF.</a> <a href="https://link.springer.com/article/10.1007/s12080-022-00542-0">Link.</a></li>
