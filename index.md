@@ -30,6 +30,7 @@ Learn more at [`spycause.readthedocs.io`](spycause.readthedocs.io) or [visit the
 
 ## Publications
 <ol reversed>
+	<li>P. Kedron, <b>T. D. Hoffman<b>, S. Bardin. (2023). "Chapter 18: Reproducibility and Replicability in GeoAI." Handbook of Geospatial Artificial Intelligence. S. Gao, Y. Hu, W. Li (Ed.).</li>
 	<li><b>T. D. Hoffman</b>, P. Kedron. (2023). "Spatial Autoregressive Models."  The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2023 Edition). John P. Wilson (Ed.). <a href="https://gistbok.ucgis.org/bok-topics/spatial-autoregressive-models">Link.</a></li>
 	<li><b>T. D. Hoffman</b>, P. Kedron. (2022). "Operationalizing Spatial Causal Inference." UCSB Spatial Data Science Symposium 2022 Short Paper Proceedings. <a href="../assets/pdf/Hoffman2022_space_cause.pdf">PDF.</a> <a href="https://escholarship.org/uc/item/2sh2c3w0">Link.</a> <a href="https://youtu.be/jV6s2FzepZY?t=1088">Recorded presentation.</a></li>
 	<li>P. Kedron, S. Bardin, <b>T. D. Hoffman</b>, M. Sachdeva, M. Quick, J. Holler. (2022). "A Replication of DiMaggio et al. (2020) in Phoenix, AZ." Annals of Epidemiology, 74, 8-14. <a href="../assets/pdf/Kedron2022_DiMaggio.pdf">PDF.</a> <a href="https://doi.org/10.1016/j.annepidem.2022.05.005">Link.</a></li>
