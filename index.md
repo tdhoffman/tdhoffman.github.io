@@ -6,6 +6,8 @@ layout: default
 Coming from a background of math and computer science, I develop algorithms and statistical methods for spatial data science. My work aims to better represent and mathematically model spatial problems and to chip away at our understanding of core geographical concepts, such as process and scale. Through algorithm design, I also seek to advance the principled use of (spatial) data science in social science. For more information about my research, [click here](https://tdhoffman.com/research) (slightly outdated). In my spare time, I love watching movies, playing piano, and biking. I am a recipient of the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and I'm currently a Ph.D student at Arizona State University in the Spatial Analysis Research Center (SPARC). 
 
 ## News and Updates
+**28 Sep 2023:** My paper, ["Controlling for spatial confounding and spatial interference in causal inference"](https://doi.org/10.1080/19475683.2023.2257788), has been published in *Annals of GIS*! Check it out for a review of spatial causal modeling ideas and to explore relative performance of these models on different spatial datasets! (With Peter Kedron.)
+
 **28 Apr 2023:** I will be presenting at the Texas A&M Institute of Data Science's Built Environment Talk Series! The talk is on May 11 from 10-10:30am central time. You can find out more about the talk [from the flyer](https://urbanai.tamids.tamu.edu/2023/04/28/built-env-talk-series-tyler-d-hoffman/).
 
 **17 Apr 2023:** Our contribution to the Geographic Information Science Body of Knowledge online encyclopedia has been published! Find out more about spatial autoregressive models [at this link](https://gistbok.ucgis.org/bok-topics/spatial-autoregressive-models).
